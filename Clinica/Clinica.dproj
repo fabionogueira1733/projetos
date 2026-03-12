@@ -94,10 +94,6 @@
             <Form>formPrincipal</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="UnitCadPac.pas">
-            <Form>formPacientes</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="UnitCadMed.pas">
             <Form>formMedicos</Form>
             <FormType>dfm</FormType>
@@ -110,6 +106,10 @@
             <Form>DataModule1</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="UnitPacientes.pas">
+            <Form>UnitCadPac</Form>
+            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

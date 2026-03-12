@@ -42,7 +42,7 @@ implementation
 
 {$R *.dfm}
 
-uses UnitCadPac, UnitCadAgenda, UnitCadMed;
+uses UnitPacientes, UnitCadAgenda, UnitCadMed;
 
 procedure TformPrincipal.AgendarConsulta1Click(Sender: TObject);
 begin
@@ -56,7 +56,7 @@ end;
 
 procedure TformPrincipal.BitBtn2Click(Sender: TObject);
 begin
-  formPacientes.ShowModal;
+ UnitCadPac.ShowModal;
 end;
 
 procedure TformPrincipal.BitBtn3Click(Sender: TObject);
@@ -71,7 +71,7 @@ end;
 
 procedure TformPrincipal.Pacientes1Click(Sender: TObject);
 begin
-   formPacientes.ShowModal;
+   UnitCadPac.ShowModal;
 end;
 
 procedure TformPrincipal.Sair1Click(Sender: TObject);
