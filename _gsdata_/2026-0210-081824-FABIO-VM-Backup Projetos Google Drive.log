@@ -1,0 +1,16 @@
+2026-02-10 08:18:26: - Análise iniciada por On File Change, After Delay
+2026-02-10 08:18:30: Alterações: 3, Conflitos: 0, Tempo: 0, Correções: 0, Erros: 0, All: 416
+2026-02-10 08:18:30: Left to Right: Copy File: 3 
+2026-02-10 08:18:30: == Sincronização iniciada por On File Change, After Delay
+2026-02-10 08:18:30: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:18:30: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:18:30: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:18:30: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:18:30: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:18:30: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:18:33: Copiar novo 'C:/Users/Privado/Desktop/Projetos/Cadastro de clientes/__recovery/MenuPrincipalCadClientes.pas' -> 'goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__recovery/MenuPrincipalCadClientes.pas' (2,428)
+2026-02-10 08:18:33: Copiar novo 'C:/Users/Privado/Desktop/Projetos/Cadastro de clientes/__recovery/MenuPrincipalCadClientes.dfm' -> 'goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__recovery/MenuPrincipalCadClientes.dfm' (23,354)
+2026-02-10 08:18:33: Copiar novo 'C:/Users/Privado/Desktop/Projetos/Cadastro de clientes/__recovery/__recovery.ini' -> 'goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__recovery/__recovery.ini' (257)
+2026-02-10 08:18:34: Salvar arquivo de estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:18:36: Salvar arquivo de estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:18:37: == Sincronização concluída. Tempo: 00:00:07, Velocidade: 5.26 KB/s, OK: 3, Erros: 0

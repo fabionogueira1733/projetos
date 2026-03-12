@@ -1,0 +1,213 @@
+object formPacientes: TformPacientes
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Pacientes'
+  ClientHeight = 639
+  ClientWidth = 915
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 24
+    Top = 117
+    Width = 61
+    Height = 13
+    Caption = 'Identificador'
+  end
+  object Label3: TLabel
+    Left = 114
+    Top = 117
+    Width = 19
+    Height = 13
+    Caption = 'CPF'
+  end
+  object Label4: TLabel
+    Left = 298
+    Top = 117
+    Width = 35
+    Height = 13
+    Caption = 'G'#234'nero'
+  end
+  object Label5: TLabel
+    Left = 26
+    Top = 181
+    Width = 27
+    Height = 13
+    Caption = 'Nome'
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 245
+    Width = 45
+    Height = 13
+    Caption = 'Endere'#231'o'
+  end
+  object Label7: TLabel
+    Left = 463
+    Top = 245
+    Width = 37
+    Height = 13
+    Caption = 'N'#250'mero'
+  end
+  object Label8: TLabel
+    Left = 24
+    Top = 309
+    Width = 28
+    Height = 13
+    Caption = 'Bairro'
+  end
+  object Label9: TLabel
+    Left = 210
+    Top = 309
+    Width = 19
+    Height = 13
+    Caption = 'CEP'
+  end
+  object Label10: TLabel
+    Left = 24
+    Top = 373
+    Width = 33
+    Height = 13
+    Caption = 'Cidade'
+  end
+  object Label11: TLabel
+    Left = 210
+    Top = 373
+    Width = 13
+    Height = 13
+    Caption = 'UF'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 915
+    Height = 81
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 24
+      Top = 26
+      Width = 211
+      Height = 23
+      Caption = 'Cadastro de Pacientes'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object TDBEdit
+    Left = 24
+    Top = 136
+    Width = 61
+    Height = 21
+    TabOrder = 1
+  end
+  object TDBEdit
+    Left = 24
+    Top = 200
+    Width = 433
+    Height = 21
+    TabOrder = 2
+  end
+  object DBEdit4: TDBEdit
+    Left = 24
+    Top = 264
+    Width = 433
+    Height = 21
+    TabOrder = 3
+  end
+  object DBEdit5: TDBEdit
+    Left = 24
+    Top = 328
+    Width = 161
+    Height = 21
+    TabOrder = 4
+  end
+  object DBEdit6: TDBEdit
+    Left = 210
+    Top = 328
+    Width = 159
+    Height = 21
+    TabOrder = 5
+  end
+  object Selecione: TDBComboBox
+    Left = 298
+    Top = 136
+    Width = 145
+    Height = 21
+    DataField = 'genero'
+    DataSource = ds_paciente
+    Items.Strings = (
+      'Masculino'
+      'Feminino'
+      'Outros')
+    TabOrder = 6
+  end
+  object DBEdit1: TDBEdit
+    Left = 463
+    Top = 264
+    Width = 74
+    Height = 21
+    TabOrder = 7
+  end
+  object DBEdit3: TDBEdit
+    Left = 24
+    Top = 392
+    Width = 161
+    Height = 21
+    TabOrder = 8
+  end
+  object DBEdit7: TDBEdit
+    Left = 210
+    Top = 392
+    Width = 95
+    Height = 21
+    TabOrder = 9
+  end
+  object MaskEdit1: TMaskEdit
+    Left = 488
+    Top = 400
+    Width = 120
+    Height = 21
+    EditMask = '000\.000\.000\-00;1;_'
+    MaxLength = 14
+    TabOrder = 10
+    Text = '   .   .   -  '
+  end
+  object ds_paciente: TDataSource
+    DataSet = clinica_paciente
+    Left = 592
+    Top = 88
+  end
+  object clinica_paciente: TFDTable
+    Active = True
+    IndexFieldNames = 'id_paciente'
+    Connection = conexao_clinica
+    UpdateOptions.UpdateTableName = 'clinica.paciente'
+    TableName = 'clinica.paciente'
+    Left = 504
+    Top = 88
+  end
+  object conexao_clinica: TFDConnection
+    Params.Strings = (
+      'Database=clinica'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 440
+    Top = 88
+  end
+end

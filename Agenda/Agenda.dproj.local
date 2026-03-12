@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/02/12 08:12:44.000.927,=C:\Users\Privado\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/02/12 08:37:16.000.509,C:\Users\Privado\Desktop\Projetos\Agenda\UnitPrincipal.dfm=C:\Users\Privado\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2026/02/12 08:37:16.000.509,C:\Users\Privado\Desktop\Projetos\Agenda\UnitPrincipal.pas=C:\Users\Privado\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/02/12 08:37:25.000.790,C:\Users\Privado\Desktop\Projetos\Agenda\Agenda.dproj=C:\Users\Privado\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/02/13 08:15:38.000.582,=C:\Users\Privado\Desktop\Projetos\Agenda\Unit1.pas</Transaction>
+    <Transaction>2026/02/13 08:16:19.000.488,=C:\Users\Privado\Desktop\Projetos\Agenda\Unit1.pas</Transaction>
+    <Transaction>2026/02/13 08:16:52.000.144,C:\Users\Privado\Desktop\Projetos\Agenda\Unit1.pas=C:\Users\Privado\Desktop\Projetos\Agenda\UnitDM.pas</Transaction>
+    <Transaction>2026/02/13 08:16:52.000.144,C:\Users\Privado\Desktop\Projetos\Agenda\Unit1.dfm=C:\Users\Privado\Desktop\Projetos\Agenda\UnitDM.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

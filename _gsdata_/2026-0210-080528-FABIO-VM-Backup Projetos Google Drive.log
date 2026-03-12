@@ -1,0 +1,17 @@
+2026-02-10 08:06:15: File Monitoring: started on goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:06:16: - Análise iniciada por On File Change First Full Analyze Upon Folder Connect
+2026-02-10 08:06:16: E: Lendo Arquivo de Estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:06:21: D: Lendo Arquivo de Estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:06:23: Alterações: 2, Conflitos: 0, Tempo: 0, Correções: 0, Erros: 0, All: 359
+2026-02-10 08:06:23: Left to Right: Copy File: 2 
+2026-02-10 08:06:23: == Sincronização iniciada por On File Change First Full Analyze Upon Folder Connect
+2026-02-10 08:06:24: Start only 2 threads, limited by tasks to run
+2026-02-10 08:06:24: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:06:24: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:06:24: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:06:24: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:06:32: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/FETCH_HEAD' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/FETCH_HEAD' (105)
+2026-02-10 08:06:32: Copiar 'C:/Users/Privado/Desktop/Projetos/Cadastro de clientes/CadastroDeClientes.identcache' -> 'goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/CadastroDeClientes.identcache' (190)
+2026-02-10 08:06:33: Salvar arquivo de estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:06:35: Salvar arquivo de estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:06:39: == Sincronização concluída. Tempo: 00:00:15, Velocidade: 744.00/s, OK: 2, Erros: 0

@@ -97,26 +97,29 @@ object Form1: TForm1
           Height = 21
           TabOrder = 2
         end
-        object Edit4: TEdit
-          Left = 263
-          Top = 39
-          Width = 153
-          Height = 21
-          TabOrder = 3
-        end
         object Edit8: TEdit
           Left = 671
           Top = 39
           Width = 194
           Height = 21
-          TabOrder = 4
+          TabOrder = 3
         end
         object Edit2: TEdit
           Left = 12
           Top = 96
           Width = 404
           Height = 21
+          TabOrder = 4
+        end
+        object MaskEdit1: TMaskEdit
+          Left = 263
+          Top = 39
+          Width = 149
+          Height = 21
+          EditMask = 'AAA.aaa.AAA-AA;1;_'
+          MaxLength = 14
           TabOrder = 5
+          Text = '   .   .   -  '
         end
       end
       object GroupBox2: TGroupBox

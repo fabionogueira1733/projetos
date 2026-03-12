@@ -1,0 +1,6 @@
+2026-02-12 08:08:43: File Monitoring: started on goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-12 08:08:44: - Análise iniciada por On File Change First Full Analyze Upon Folder Connect
+2026-02-12 08:08:44: E: Lendo Arquivo de Estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-12 08:08:46: D: Lendo Arquivo de Estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-12 08:08:48: Alterações: 0, Conflitos: 0, Tempo: 0, Correções: 0, Erros: 0, All: 417
+2026-02-12 08:08:48: - Análise concluída. Tempo 00:00:04, Velocidade: 92 arquivos/s

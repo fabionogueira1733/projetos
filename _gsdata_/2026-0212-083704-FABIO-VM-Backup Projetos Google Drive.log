@@ -1,0 +1,7 @@
+2026-02-12 08:37:06: - Análise iniciada por On File Change Incremental
+2026-02-12 08:37:06: E: Lendo Arquivo de Estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-12 08:37:09: Waiting for 3 + 0 of 4 sec on POST: Server says: Service Unavailable (status code 503): Transient failure.
+2026-02-12 08:37:16: D: Lendo Arquivo de Estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-12 08:37:18: Alterações: 1, Conflitos: 0, Tempo: 0, Correções: 0, Erros: 0, All: 418
+2026-02-12 08:37:18: Left to Right: Copy File: 1 
+2026-02-12 08:37:18: Free Version limitation: Job containing more than 100 files/folders are not allowed: Activate Paid Version of GoodSync from Purchased License and run Job again

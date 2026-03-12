@@ -1,0 +1,79 @@
+2026-02-10 08:07:17: - Análise iniciada por On File Change, After Delay
+2026-02-10 08:07:20: Alterações: 65, Conflitos: 0, Tempo: 0, Correções: 0, Erros: 0, All: 416
+2026-02-10 08:07:20: Left to Right: Copy File: 65 
+2026-02-10 08:07:20: == Sincronização iniciada por On File Change, After Delay
+2026-02-10 08:07:20: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:07:20: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:07:20: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:07:20: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:07:20: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:07:20: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:07:24: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/index' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/index' (10,122)
+2026-02-10 08:07:25: Copiar 'C:/Users/Privado/Desktop/Projetos/.gitignore' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.gitignore' (6,199)
+2026-02-10 08:07:25: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/COMMIT_EDITMSG' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/COMMIT_EDITMSG' (9)
+2026-02-10 08:07:25: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/08
+2026-02-10 08:07:25: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/0b
+2026-02-10 08:07:26: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/15
+2026-02-10 08:07:28: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/08/b70a0b55b1515b3b51d478d55c1c016ea9e6b1' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/08/b70a0b55b1515b3b51d478d55c1c016ea9e6b1' (4,539)
+2026-02-10 08:07:28: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/logs/HEAD' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/logs/HEAD' (542)
+2026-02-10 08:07:28: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/0b/f16ad5afb1f3737e7b7d9f82daedce375ec0e8' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/0b/f16ad5afb1f3737e7b7d9f82daedce375ec0e8' (467)
+2026-02-10 08:07:28: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1a
+2026-02-10 08:07:28: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1b
+2026-02-10 08:07:29: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/15/48a84ec5a0329dd99089746400d7cd196df492' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/15/48a84ec5a0329dd99089746400d7cd196df492' (657)
+2026-02-10 08:07:31: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/1b/a9f0192a27d2d766d014e7fe7aaf95272b66f8' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1b/a9f0192a27d2d766d014e7fe7aaf95272b66f8' (269)
+2026-02-10 08:07:31: > Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/1a/dc2a222806d413db86891b2efa6764931682f6' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1a/dc2a222806d413db86891b2efa6764931682f6' (3,985,132)
+2026-02-10 08:07:31: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/1b/f47c5fa671bda13610d8045f9dc3eca3b7039e' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1b/f47c5fa671bda13610d8045f9dc3eca3b7039e' (586)
+2026-02-10 08:07:31: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/1c/33434bd2aebc72539b9c9030edc29637302d11' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1c/33434bd2aebc72539b9c9030edc29637302d11' (5,520)
+2026-02-10 08:07:32: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/20
+2026-02-10 08:07:32: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/1a/fa209a0efac38c69b3c08f4b196f9008f6781f' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1a/fa209a0efac38c69b3c08f4b196f9008f6781f' (5,516)
+2026-02-10 08:07:32: < Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/1a/dc2a222806d413db86891b2efa6764931682f6' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/1a/dc2a222806d413db86891b2efa6764931682f6' (3,985,132)
+2026-02-10 08:07:33: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/48
+2026-02-10 08:07:33: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/20/b464e2bcee391b8b26b8a6e9d40c49a255cc7c' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/20/b464e2bcee391b8b26b8a6e9d40c49a255cc7c' (512)
+2026-02-10 08:07:34: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/49
+2026-02-10 08:07:34: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/3a/59be80d591e4e2acd1e89d2a978b1d3cf0ae6f' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/3a/59be80d591e4e2acd1e89d2a978b1d3cf0ae6f' (379)
+2026-02-10 08:07:35: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/54
+2026-02-10 08:07:35: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/48/924c2363ae7f5d2f2e546df4f8d4091f05d5d5' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/48/924c2363ae7f5d2f2e546df4f8d4091f05d5d5' (111)
+2026-02-10 08:07:36: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/49/47df578f7c8d42b0c3ef7fedc4f980fa5134af' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/49/47df578f7c8d42b0c3ef7fedc4f980fa5134af' (5,329)
+2026-02-10 08:07:37: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/5f/aedc562cbdc0b7e1c1c34eacdec61c05d7a06e' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/5f/aedc562cbdc0b7e1c1c34eacdec61c05d7a06e' (562)
+2026-02-10 08:07:37: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/72
+2026-02-10 08:07:37: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/78
+2026-02-10 08:07:37: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/54/dad97a8b97b72bda356a753b9ae471c8d74e7f' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/54/dad97a8b97b72bda356a753b9ae471c8d74e7f' (498)
+2026-02-10 08:07:38: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/7c
+2026-02-10 08:07:39: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/72/0f5d42eb6fba1f478391cbb023b28c450c9a65' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/72/0f5d42eb6fba1f478391cbb023b28c450c9a65' (137)
+2026-02-10 08:07:40: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/78/e358ef863f052f8777fd2561cd7cfa7deb9cb1' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/78/e358ef863f052f8777fd2561cd7cfa7deb9cb1' (709)
+2026-02-10 08:07:40: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/78/8a09a5e215dd8ceaf786d2cb99723e3f740e06' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/78/8a09a5e215dd8ceaf786d2cb99723e3f740e06' (505)
+2026-02-10 08:07:40: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/83
+2026-02-10 08:07:40: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/82
+2026-02-10 08:07:41: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/8a
+2026-02-10 08:07:42: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/7c/1f790b693532b96a2231dc034140acc3e57090' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/7c/1f790b693532b96a2231dc034140acc3e57090' (4,669)
+2026-02-10 08:07:43: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/82/4c9ea0cffe1fd20f4fbd3d607923e6a67eac68' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/82/4c9ea0cffe1fd20f4fbd3d607923e6a67eac68' (702)
+2026-02-10 08:07:43: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/83/887cd3132a350b6a1ca24bd2955b23588cb35a' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/83/887cd3132a350b6a1ca24bd2955b23588cb35a' (4,068)
+2026-02-10 08:07:44: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/8f
+2026-02-10 08:07:44: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/9f
+2026-02-10 08:07:46: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/8a/f700c691c5e3d19a2561f94bc763fcc4aff038' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/8a/f700c691c5e3d19a2561f94bc763fcc4aff038' (47)
+2026-02-10 08:07:46: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/9b/333ebbcd07cbc61d339530d85e72911d08b7d1' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/9b/333ebbcd07cbc61d339530d85e72911d08b7d1' (573)
+2026-02-10 08:07:46: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/9f/16a96bed4e21fe69d9f7aa4fa4ee1525deb038' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/9f/16a96bed4e21fe69d9f7aa4fa4ee1525deb038' (622)
+2026-02-10 08:07:47: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/cc
+2026-02-10 08:07:48: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/a6/b46f7c469c5ca801c8b86823cd200609f7af02' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/a6/b46f7c469c5ca801c8b86823cd200609f7af02' (48,840)
+2026-02-10 08:07:48: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/8f/77ec209fb3f4a530d1484600cecde0804cc14e' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/8f/77ec209fb3f4a530d1484600cecde0804cc14e' (4,695)
+2026-02-10 08:07:48: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/c0/f100cab14d728efab9a65c3256b51a2e527035' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/c0/f100cab14d728efab9a65c3256b51a2e527035' (569)
+2026-02-10 08:07:49: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/cf
+2026-02-10 08:07:49: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/d1
+2026-02-10 08:07:49: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/e0
+2026-02-10 08:07:50: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/cc/485d3019f82e2f26e48f758bbc7ddfe32f31c5' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/cc/485d3019f82e2f26e48f758bbc7ddfe32f31c5' (4,697)
+2026-02-10 08:07:52: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/d1/ff7cefba377a1de647f803f9b4d6674f6dde7f' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/d1/ff7cefba377a1de647f803f9b4d6674f6dde7f' (5,581)
+2026-02-10 08:07:52: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/cf/9058af14da70f0b8c51db0e38bbfbea41f13a4' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/cf/9058af14da70f0b8c51db0e38bbfbea41f13a4' (1,716)
+2026-02-10 08:07:52: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/f0
+2026-02-10 08:07:52: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/ea
+2026-02-10 08:07:53: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/e0/2391114372f8440a494a9a1880ad21cba0731c' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/e0/2391114372f8440a494a9a1880ad21cba0731c' (1,733)
+2026-02-10 08:07:53: Criar Pasta goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/fa
+2026-02-10 08:07:55: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/ea/8bc4ecf54cac2714542a629f9f6d8cae1aa267' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/ea/8bc4ecf54cac2714542a629f9f6d8cae1aa267' (155)
+2026-02-10 08:07:55: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/f0/0099b49525b8fa31fc1fa9088c479bb10316e2' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/f0/0099b49525b8fa31fc1fa9088c479bb10316e2' (521)
+2026-02-10 08:07:55: Copiar novo 'C:/Users/Privado/Desktop/Projetos/.git/objects/fa/4fd7bbcf7143983576420bfbfb89091af6d391' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/objects/fa/4fd7bbcf7143983576420bfbfb89091af6d391' (4,365)
+2026-02-10 08:07:58: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/logs/refs/remotes/origin/HEAD' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/logs/refs/remotes/origin/HEAD' (954)
+2026-02-10 08:07:59: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/logs/refs/heads/main' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/logs/refs/heads/main' (542)
+2026-02-10 08:07:59: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/refs/heads/main' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/refs/heads/main' (41)
+2026-02-10 08:08:02: Copiar 'C:/Users/Privado/Desktop/Projetos/.git/refs/remotes/origin/HEAD' -> 'goodrive://www.googleapis.com/:personal:/Projetos/.git/refs/remotes/origin/HEAD' (30)
+2026-02-10 08:08:02: Salvar arquivo de estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:08:04: Salvar arquivo de estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:08:07: == Sincronização concluída. Tempo: 00:00:47, Velocidade: 104.62 KB/s, OK: 65, Erros: 0

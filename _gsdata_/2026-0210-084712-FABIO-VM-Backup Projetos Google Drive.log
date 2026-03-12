@@ -1,0 +1,11 @@
+2026-02-10 08:47:13: - Análise iniciada por On File Change First Full Analyze Upon Folder Connect
+2026-02-10 08:47:14: E: Lendo Arquivo de Estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:47:16: D: Lendo Arquivo de Estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:47:18: Alterações: 1, Conflitos: 0, Tempo: 0, Correções: 0, Erros: 0, All: 417
+2026-02-10 08:47:18: Left to Right: Copy File: 1 
+2026-02-10 08:47:18: == Sincronização iniciada por On File Change First Full Analyze Upon Folder Connect
+2026-02-10 08:47:18: Start only 1 threads, limited by tasks to run
+2026-02-10 08:47:24: Copiar 'C:/Users/Privado/Desktop/Projetos/Cadastro de clientes/CadastroDeClientes.identcache' -> 'goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/CadastroDeClientes.identcache' (190)
+2026-02-10 08:47:24: Salvar arquivo de estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:47:26: Salvar arquivo de estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:47:28: == Sincronização concluída. Tempo: 00:00:10, Velocidade: 512.00/s, OK: 1, Erros: 0

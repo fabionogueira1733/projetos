@@ -1,0 +1,19 @@
+2026-02-10 08:30:16: - Análise iniciada por On File Change, After Delay
+2026-02-10 08:30:18: Alterações: 6, Conflitos: 0, Tempo: 0, Correções: 0, Erros: 0, All: 417
+2026-02-10 08:30:18: Left to Right: Copy File: 2 Delete File: 4 
+2026-02-10 08:30:18: == Sincronização iniciada por On File Change, After Delay
+2026-02-10 08:30:18: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:30:18: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:30:18: ConnectCloned connected to file:///C:/Users/Privado/Desktop/Projetos
+2026-02-10 08:30:18: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:30:18: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:30:18: GsConnectAndSetRoot1 connected to goodrive://www.googleapis.com/:personal:/Projetos
+2026-02-10 08:30:20: Excluir arquivo goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__history/MenuPrincipalCadClientes.dfm.~20~
+2026-02-10 08:30:20: Copiar novo 'C:/Users/Privado/Desktop/Projetos/Cadastro de clientes/__history/MenuPrincipalCadClientes.dfm.~30~' -> 'goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__history/MenuPrincipalCadClientes.dfm.~30~' (23,158)
+2026-02-10 08:30:21: Excluir arquivo goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__recovery/MenuPrincipalCadClientes.dfm
+2026-02-10 08:30:21: Excluir arquivo goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__recovery/__recovery.ini
+2026-02-10 08:30:22: Copiar 'C:/Users/Privado/Desktop/Projetos/Cadastro de clientes/MenuPrincipalCadClientes.dfm' -> 'goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/MenuPrincipalCadClientes.dfm' (23,354)
+2026-02-10 08:30:23: Excluir arquivo goodrive://www.googleapis.com/:personal:/Projetos/Cadastro de clientes/__recovery/MenuPrincipalCadClientes.pas
+2026-02-10 08:30:23: Salvar arquivo de estado C:/Users/Privado/Desktop/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:30:24: Salvar arquivo de estado goodrive://www.googleapis.com/:personal:/Projetos/_gsdata_/_file_state_v4._gs
+2026-02-10 08:30:26: == Sincronização concluída. Tempo: 00:00:08, Velocidade: 18.67 KB/s, OK: 6, Erros: 0
