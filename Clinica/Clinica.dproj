@@ -108,7 +108,7 @@
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <DCCReference Include="UnitPacientes.pas">
-            <Form>UnitCadPac</Form>
+            <Form>CadPacientes</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

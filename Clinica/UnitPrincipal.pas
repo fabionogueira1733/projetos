@@ -56,7 +56,7 @@ end;
 
 procedure TformPrincipal.BitBtn2Click(Sender: TObject);
 begin
- UnitCadPac.ShowModal;
+ CadPacientes.ShowModal;
 end;
 
 procedure TformPrincipal.BitBtn3Click(Sender: TObject);
@@ -71,7 +71,7 @@ end;
 
 procedure TformPrincipal.Pacientes1Click(Sender: TObject);
 begin
-   UnitCadPac.ShowModal;
+   CadPacientes.ShowModal;
 end;
 
 procedure TformPrincipal.Sair1Click(Sender: TObject);

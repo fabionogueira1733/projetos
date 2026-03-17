@@ -1,0 +1,30 @@
+unit UnitPacientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Mask,
+  Vcl.ComCtrls, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error,
+  FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool,
+  FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MySQL, FireDAC.Phys.MySQLDef,
+  FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  TUnitPacientes = class(TForm)
+    Panel1: TPanel;
+    GroupBox1: TGroupBox;
+    MaskEdit1: TMaskEdit;
+    GroupBox2: TGroupBox;
+    Edit1: TEdit;
+    GroupBox3: TGroupBox;
+    GroupBox4: TGroupBox;
+    Edit2: TEdit;
+    Table_clinica: TFDConnection;
+    FDTable1: TFDTable;
+    FDTable1id_paciente: TFDAutoIncField;
+    FDTable1cpf: TStringField;
+    FDTable1nome: TStringField;
+    FDTable1celular: TStringField;
+    FDTable1data_cadastro: TSQLTimeStampField;

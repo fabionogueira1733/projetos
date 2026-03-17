@@ -6,7 +6,7 @@ uses
   UnitCadMed in 'UnitCadMed.pas' {formMedicos},
   UnitCadAgenda in 'UnitCadAgenda.pas' {formAgendamento},
   unitDM in 'unitDM.pas' {DataModule1: TDataModule},
-  UnitPacientes in 'UnitPacientes.pas' {UnitCadPac};
+  UnitPacientes in 'UnitPacientes.pas' {CadPacientes};
 
 {$R *.res}
 
@@ -17,6 +17,6 @@ begin
   Application.CreateForm(TformMedicos, formMedicos);
   Application.CreateForm(TformAgendamento, formAgendamento);
   Application.CreateForm(TDataModule1, DataModule1);
-  Application.CreateForm(TUnitCadPac, UnitCadPac);
+  Application.CreateForm(TCadPacientes, CadPacientes);
   Application.Run;
 end.
