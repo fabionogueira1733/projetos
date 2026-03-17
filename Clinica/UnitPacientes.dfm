@@ -2,8 +2,8 @@ object CadPacientes: TCadPacientes
   Left = 0
   Top = 0
   Caption = 'Cadastro de Pacientes'
-  ClientHeight = 241
-  ClientWidth = 635
+  ClientHeight = 481
+  ClientWidth = 796
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,6 +11,95 @@ object CadPacientes: TCadPacientes
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 796
+    Height = 97
+    Align = alTop
+    Caption = 'Cadastro de Pacientes'
+    Color = clMenuBar
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -32
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 58
+    Top = 103
+    Width = 409
+    Height = 50
+    Caption = 'Nome do Paciente'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    object Edit1: TEdit
+      Left = 3
+      Top = 16
+      Width = 403
+      Height = 24
+      TabOrder = 0
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 8
+    Top = 103
+    Width = 49
+    Height = 50
+    Caption = 'ID'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    object Edit2: TEdit
+      Left = 3
+      Top = 16
+      Width = 41
+      Height = 24
+      TabOrder = 0
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 258
+    Top = 295
+    Width = 495
+    Height = 122
+    Caption = 'CPF'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    object TDBEdit
+      Left = 3
+      Top = 16
+      Width = 254
+      Height = 24
+      TabOrder = 0
+    end
+  end
+  object FDPacientes: TFDConnection
+    Params.Strings = (
+      'Database=clinica'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Left = 624
+    Top = 432
+  end
 end
