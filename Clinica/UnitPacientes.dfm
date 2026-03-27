@@ -46,7 +46,7 @@ object CadPacientes: TCadPacientes
     TabOrder = 1
     object Edit1: TEdit
       Left = 3
-      Top = 16
+      Top = 23
       Width = 403
       Height = 24
       TabOrder = 0
@@ -67,17 +67,17 @@ object CadPacientes: TCadPacientes
     TabOrder = 2
     object Edit2: TEdit
       Left = 3
-      Top = 16
+      Top = 23
       Width = 41
       Height = 24
       TabOrder = 0
     end
   end
   object GroupBox3: TGroupBox
-    Left = 258
-    Top = 295
-    Width = 495
-    Height = 122
+    Left = 473
+    Top = 103
+    Width = 136
+    Height = 50
     Caption = 'CPF'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -86,20 +86,78 @@ object CadPacientes: TCadPacientes
     Font.Style = []
     ParentFont = False
     TabOrder = 3
-    object TDBEdit
+    object DBEdit1: TDBEdit
       Left = 3
-      Top = 16
-      Width = 254
+      Top = 23
+      Width = 121
       Height = 24
+      DataField = 'cpf'
+      DataSource = DataSource1
+      MaxLength = 14
       TabOrder = 0
     end
   end
-  object FDPacientes: TFDConnection
+  object FDPacientes: TFDTable
+    Active = True
+    IndexFieldNames = 'id_paciente'
+    ConstraintsEnabled = True
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'clinica.paciente'
+    TableName = 'clinica.paciente'
+    Left = 616
+    Top = 424
+    object FDPacientesid_paciente: TFDAutoIncField
+      FieldName = 'id_paciente'
+      Origin = 'id_paciente'
+      ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
+    end
+    object FDPacientescpf: TStringField
+      FieldName = 'cpf'
+      Origin = 'cpf'
+      Required = True
+      EditMask = '000\.000\.000\-00;1;_'
+      Size = 14
+    end
+    object FDPacientesnome: TStringField
+      FieldName = 'nome'
+      Origin = 'nome'
+      Required = True
+      Size = 80
+    end
+    object FDPacientescelular: TStringField
+      FieldName = 'celular'
+      Origin = 'celular'
+      Required = True
+      Size = 19
+    end
+    object FDPacientesdata_cadastro: TSQLTimeStampField
+      AutoGenerateValue = arDefault
+      FieldName = 'data_cadastro'
+      Origin = 'data_cadastro'
+    end
+    object FDPacientesgenero: TStringField
+      FieldName = 'genero'
+      Origin = 'genero'
+      Required = True
+      FixedChar = True
+      Size = 9
+    end
+  end
+  object FDConnection1: TFDConnection
     Params.Strings = (
-      'Database=clinica'
+      'Pooled=root'
       'User_Name=root'
+      'Database=clinica'
       'DriverID=MySQL')
-    Left = 624
+    Connected = True
+    LoginPrompt = False
+    Left = 536
+    Top = 432
+  end
+  object DataSource1: TDataSource
+    DataSet = FDPacientes
+    Left = 696
     Top = 432
   end
 end
