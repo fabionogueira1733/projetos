@@ -20,7 +20,16 @@ type
     GroupBox2: TGroupBox;
     Edit2: TEdit;
     GroupBox3: TGroupBox;
-    ConnPacientes: TFDConnection;
+    FDPacientes: TFDTable;
+    FDConnection1: TFDConnection;
+    DataSource1: TDataSource;
+    FDPacientesid_paciente: TFDAutoIncField;
+    FDPacientescpf: TStringField;
+    FDPacientesnome: TStringField;
+    FDPacientescelular: TStringField;
+    FDPacientesdata_cadastro: TSQLTimeStampField;
+    FDPacientesgenero: TStringField;
+    DBEdit1: TDBEdit;
   private
     { Private declarations }
   public

@@ -35,7 +35,7 @@ object CadPacientes: TCadPacientes
     Left = 58
     Top = 103
     Width = 409
-    Height = 50
+    Height = 57
     Caption = 'Nome do Paciente'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -56,7 +56,7 @@ object CadPacientes: TCadPacientes
     Left = 8
     Top = 103
     Width = 49
-    Height = 50
+    Height = 57
     Caption = 'ID'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -65,11 +65,15 @@ object CadPacientes: TCadPacientes
     Font.Style = []
     ParentFont = False
     TabOrder = 2
-    object Edit2: TEdit
-      Left = 3
+    object TDBEdit
+      Left = 6
       Top = 23
-      Width = 41
+      Width = 38
       Height = 24
+      Color = clMenu
+      DataField = 'id_paciente'
+      DataSource = DataSource1
+      Enabled = False
       TabOrder = 0
     end
   end
@@ -77,7 +81,7 @@ object CadPacientes: TCadPacientes
     Left = 473
     Top = 103
     Width = 136
-    Height = 50
+    Height = 57
     Caption = 'CPF'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -86,19 +90,35 @@ object CadPacientes: TCadPacientes
     Font.Style = []
     ParentFont = False
     TabOrder = 3
-    object DBEdit1: TDBEdit
+    object TDBEdit
       Left = 3
       Top = 23
       Width = 121
       Height = 24
       DataField = 'cpf'
       DataSource = DataSource1
-      MaxLength = 14
+      TabOrder = 0
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 615
+    Top = 103
+    Width = 137
+    Height = 57
+    Caption = 'Data do Cadastro'
+    TabOrder = 4
+    object TDBEdit
+      Left = 3
+      Top = 24
+      Width = 121
+      Height = 21
+      DataField = 'data_cadastro'
+      DataSource = DataSource1
       TabOrder = 0
     end
   end
   object FDPacientes: TFDTable
-    Active = True
+    BeforePost = FDPacientesBeforePost
     IndexFieldNames = 'id_paciente'
     ConstraintsEnabled = True
     Connection = FDConnection1
@@ -135,6 +155,8 @@ object CadPacientes: TCadPacientes
       AutoGenerateValue = arDefault
       FieldName = 'data_cadastro'
       Origin = 'data_cadastro'
+      ReadOnly = True
+      DisplayFormat = 'dd/mm/yyyy hh:nn'
     end
     object FDPacientesgenero: TStringField
       FieldName = 'genero'

@@ -18,7 +18,6 @@ type
     GroupBox1: TGroupBox;
     Edit1: TEdit;
     GroupBox2: TGroupBox;
-    Edit2: TEdit;
     GroupBox3: TGroupBox;
     FDPacientes: TFDTable;
     FDConnection1: TFDConnection;
@@ -29,7 +28,8 @@ type
     FDPacientescelular: TStringField;
     FDPacientesdata_cadastro: TSQLTimeStampField;
     FDPacientesgenero: TStringField;
-    DBEdit1: TDBEdit;
+    GroupBox4: TGroupBox;
+    procedure FDPacientesBeforePost(DataSet: TDataSet);
   private
     { Private declarations }
   public
@@ -42,5 +42,13 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TCadPacientes.FDPacientesBeforePost(DataSet: TDataSet);
+begin
+if FDpacientes.State = dsInsert then
+begin
+  FDpacientes.FieldByName('data_cadastro').AsDateTime := Now;
+end;
+end;
 
 end.
